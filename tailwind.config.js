@@ -5,7 +5,11 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}',  // Add these paths to make sure Tailwind processes all your source files
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Mulish', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
